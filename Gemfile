@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 gem "bootstrap", "~> 5.3"
 gem "dartsass-rails"
+gem 'bcrypt'
 
 gem "rails-controller-testing"
 
