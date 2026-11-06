@@ -6,6 +6,9 @@ gem 'bcrypt'
 
 gem "rails-controller-testing"
 
+# json 3.x is incompatible with ActiveSupport 8.1 (session cookie decoding fails)
+gem "json", "< 3"
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 8.1.3", ">= 8.1.3.1"
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
